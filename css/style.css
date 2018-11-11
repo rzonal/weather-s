@@ -1,0 +1,42 @@
+#rowDiv{
+    margin: auto;
+    text-align: center;
+    widows: 60px;
+}
+/*alzeer*/
+#submitweather{
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+body {
+    text-align: center;
+
+background-color: bisque;
+}
+
+
+.tA textarea {
+    width: 320px;
+}
+
+.tA {
+    padding: 8.5px;
+}
+  .glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+       text-shadow: 0 0 10px rgb(74, 67, 98), 0 0 20px rgb(102, 103, 120), 0 0 30px #504da4, 0 0 40px #54a8e4, 0 0 50px #518ee4, 0 0 60px #09062f, 0 0 70px #9397e9;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #0d0625, 0 0 40px #292139, 0 0 50px #554a6c, 0 0 60px #22184a, 0 0 70px #2d58da, 0 0 80px #444249;
+    }
+  }

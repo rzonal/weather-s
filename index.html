@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Razan news</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <div class="jumbotron" style="margin-bottom:0px; color:wihte; background-color: #44aaaa">
+        <h2 class="text-center" style="font-size:50px; font-weight:600; "> Get Curret Weather</h2>
+    </div>
+
+    <div class="container">
+        <form id="submitWeather">
+            <div class="row form-group  form-inline" id="rowDiv">
+                <input type="text" name="city" id="city" class="form-control" placeholder="city Namr">
+                <button id="submitweather" class="btn btn-primary"> Search city</button>
+            </div>
+            <div id="error"></div>
+        </form>
+
+        <h1 class="glow">الطقس اليوم</h1>
+        <div class="main-container">
+            <div class="textAk">
+                <div class="googleMap">
+                    <div id="map"></div>
+
+                </div>
+                <!--- <div id="descr"></div>
+        <div id="results"></div>
+        <div id="main"></div>
+    </div>-->
+
+<!--- Creat Items i html---->
+                <form id="search-form">
+                    <div class="result">
+                        <p><i class="fa fa-1x fa-thermometer-empty">ºC</i></p>
+                        <p>name</p>
+                        <div class="name"></div>
+
+                        <p><i class="fa fa-1x fa-thermometer-empty">ºC</i></p>
+                        <p>description</p>
+                        <div class="description"></div>
+                        <p><i class="fa fa-1x fa-thermometer-empty">ºC</i></p>
+                        <p>Temprature</p>
+                        <div class="temp"></div>
+
+                        <i class="fa fa-1x fa-tint"></i>
+                        <p>Humidity<p>
+                                <div class="humidity"></div>
+
+                                <i class="fa fa-leaf"></i>
+                                <p>Wind</p>
+                                <div class="wind"></div>
+
+                                <i class="fa fa-leaf"></i>
+                                <p>min.temperatur</p>
+                                <div class="wwww"></div>
+
+                                <i class="fa fa-leaf"></i>
+                                <p>Max.temperature</p>
+                                <div class="fffff"></div>
+
+
+
+
+                                <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                                    crossorigin="anonymous"></script>
+                                <script src="js/app.js"></script>
+
+</body>
+
+</html>
